@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FbriVgn3m1efZ5pr5k/7qfV10NA8ls5N3MWDfw7ozHjZo3kLRZTS6wr07sL915BtdUatzKqAYC8jsht4iHhZpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adela\\Documents\\DAVID\\BASES\\DetailTECmovil\\DetailTECMovilApp\\DetailTECMovilApp.iOS\\DetailTECMovilApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adela\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\adela\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\adela\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\bin\Debug\netstandard2.0\DetailTECMovilApp.deps.json
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\bin\Debug\netstandard2.0\DetailTECMovilApp.dll
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\bin\Debug\netstandard2.0\DetailTECMovilApp.pdb
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\DetailTECMovilApp.csproj.AssemblyReference.cache
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\DetailTECMovilApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\DetailTECMovilApp.AssemblyInfoInputs.cache
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\DetailTECMovilApp.AssemblyInfo.cs
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\DetailTECMovilApp.csproj.CoreCompileInputs.cache
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\DetailTECMovilApp.dll
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\refint\DetailTECMovilApp.dll
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\DetailTECMovilApp.pdb
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\ref\DetailTECMovilApp.dll
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\LoginUI.xaml.g.cs

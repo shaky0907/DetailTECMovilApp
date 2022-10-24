@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "FbriVgn3m1efZ5pr5k/7qfV10NA8ls5N3MWDfw7ozHjZo3kLRZTS6wr07sL915BtdUatzKqAYC8jsht4iHhZpA==",
+  "dgSpecHash": "LLvPyahdzZ2fO0VXqv7XDwibnI83FiUoUktdG3y6CkEJFtJW+XU8gdq+EeBUDaCt9OUEhAEBOVKgR7N5F8Uv5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\adela\\Documents\\DAVID\\BASES\\DetailTECmovil\\DetailTECMovilApp\\DetailTECMovilApp.iOS\\DetailTECMovilApp.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\adela\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\adela\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\adela\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\adela\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\adela\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\adela\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\adela\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\adela\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\adela\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\adela\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

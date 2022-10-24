@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DetailTECMovilApp.LoginUI"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+
+
+            <Frame CornerRadius="10" BackgroundColor="#FFA534">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="logo_tec.png" WidthRequest="150" HeightRequest="90"></Image>
+                    <Label Font="32" Text="DetailTec" Margin="15" VerticalOptions="Center" TextColor="Black"></Label>
+                </StackLayout>
+            </Frame>
+
+
+            
+    
+            <Entry x:Name="txtUsername" Placeholder="Username" TextColor="Black" PlaceholderColor="Gray" 
+                   ClearButtonVisibility="WhileEditing"></Entry >
+            
+            <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="True" TextColor="Black" PlaceholderColor="Gray" 
+                   ClearButtonVisibility="WhileEditing"></Entry>
+            <Button
+                VerticalOptions="Center"
+                Text="Login"
+                TextColor="Black"
+                BackgroundColor="#00BEE0"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Login"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

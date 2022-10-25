@@ -58,7 +58,7 @@ namespace DetailTECMovilApp
 
         private async void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
-            CitasView.ItemsSource = await App.MyDataBase.Search(e.NewTextValue);
+            CitasView.ItemsSource = await App.MyDataBase.SearchCita(e.NewTextValue);
         }
     }
 }

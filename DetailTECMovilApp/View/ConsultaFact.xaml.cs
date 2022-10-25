@@ -15,6 +15,30 @@ namespace DetailTECMovilApp
         public ConsultaFact()
         {
             InitializeComponent();
+            App.MyDataBase.CreateFactura(new Models.Factura()
+            {
+                Cita_Facturada=1,
+                monto="$200",
+                tipo_de_pago= "Efectivo"
+            });
+        }
+
+        protected override async void OnAppearing()
+        {
+            try
+            {
+                base.OnAppearing();
+                FacturaView.ItemsSource = await App.MyDataBase.ReadFacturas();
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void SwipeItem_Invoked(object sender, EventArgs e)
+        {
+
         }
     }
 }

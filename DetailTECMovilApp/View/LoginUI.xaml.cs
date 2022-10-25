@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DetailTECMovilApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,15 +18,17 @@ namespace DetailTECMovilApp
             InitializeComponent();
         }
 
-        private void Login(object sender, EventArgs e)
+        private async void Login(object sender, EventArgs e)
         {
-            if(txtUsername.Text=="admin" && txtPassword.Text == "0907")
+            Usuario user = await App.MyDataBase.SearchUser(txtUsername.Text, txtPassword.Text);
+           
+            if(user != null)
             {
                 Application.Current.MainPage = new Home();
             }
             else
             {
-                DisplayAlert("Error","No se ingreso correctamente la información","Ok");
+                await DisplayAlert("Error","No se ingreso correctamente la información","Ok");
             }
         }
     }

@@ -28,6 +28,7 @@ namespace DetailTECMovilApp
 
             //MainPage = new MainPage();
             MainPage = new LoginUI();
+            
         }
 
         protected override void OnStart()

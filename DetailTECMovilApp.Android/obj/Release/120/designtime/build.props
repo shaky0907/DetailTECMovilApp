@@ -27,8 +27,6 @@ androidincludedebugsymbols=false
 androidpackagenamingpolicy=lowercasecrc64
 _nugetassetstimestamp=638020824131172815
 typemapkind=mvid
-androidsupportedabis=arm64-v8a
-armeabi-v7a
-x86
-x86_64
+androidsupportedabis=armeabi-v7a
+arm64-v8a
 androidmanifestplaceholders=

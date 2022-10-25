@@ -16,5 +16,17 @@ namespace DetailTECMovilApp
         {
             InitializeComponent();
         }
+        protected override async void OnAppearing()
+        {
+            try
+            {
+                base.OnAppearing();
+                App.Current.MainPage = new LoginUI();
+            }
+            catch
+            {
+
+            }
+        }
     }
 }

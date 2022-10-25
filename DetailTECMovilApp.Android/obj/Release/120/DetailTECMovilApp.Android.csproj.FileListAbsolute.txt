@@ -1,10 +1,5 @@
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\DetailTECMovilApp.Android.dll
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\DetailTECMovilApp.Android.pdb
-C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\com.TEC.detailtecmovilapp.apk
-C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\com.TEC.detailtecmovilapp.aab
-C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\com.TEC.detailtecmovilapp-Signed.aab
-C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\com.TEC.detailtecmovilapp-Signed.apk
-C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\com.TEC.detailtecmovilapp-Signed.apk.idsig
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\DetailTECMovilApp.dll
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\DetailTECMovilApp.pdb
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\MonoAndroid,Version=v12.0.AssemblyAttributes.cs
@@ -44,10 +39,7 @@ C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECM
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\DetailTECMovilApp.Android.csproj.CopyComplete
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\DetailTECMovilApp.Android.dll
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\DetailTECMovilApp.Android.pdb
-C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\bin\com.TEC.detailtecmovilapp.apk
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\bin\base.zip
-C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\bin\com.TEC.detailtecmovilapp.aab
-C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\bin\com.TEC.detailtecmovilapp.apks
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\res\values\styles.xml
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\res\values\colors.xml
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\res\mipmap-anydpi-v26\icon.xml
@@ -435,7 +427,6 @@ C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECM
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\src\mono\com\google\android\material\tabs\TabLayout_BaseOnTabSelectedListenerImplementor.java
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\bin\packaged_resources
-C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\src\com\tec\detailtecmovilapp\R.java
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\compressed_assemblies.armeabi-v7a.ll
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\compressed_assemblies.arm64-v8a.ll
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\typemaps.armeabi-v7a.o
@@ -457,3 +448,12 @@ C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECM
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\com.TEC.detailtecmovil.apk
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\com.TEC.detailtecmovil.aab
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\com.TEC.detailtecmovil-Signed.aab
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\com.TEC.detailtecmovil-Signed.apk
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\bin\Release\com.TEC.detailtecmovil-Signed.apk.idsig
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\bin\com.TEC.detailtecmovil.apk
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\bin\com.TEC.detailtecmovil.aab
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\bin\com.TEC.detailtecmovil.apks
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp.Android\obj\Release\120\android\src\com\tec\detailtecmovil\R.java

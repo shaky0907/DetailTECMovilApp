@@ -11,10 +11,10 @@
         <ListView x:Name="listview" x:FieldModifier="public">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:FlyoutItemPage}">
-                    <local:FlyoutItemPage Title="Cliente" IconSource="Cliente.png" TargetPage="{x:Type local:ClienteGestion}"/>
-                    <local:FlyoutItemPage Title="Mis Citas" IconSource="Cita.png" TargetPage="{x:Type local:RegistroCitas}"/>
-                    <local:FlyoutItemPage Title="Mis Facturas" IconSource="Factura.png" TargetPage="{x:Type local:ConsultaFact}"/>
-                    <local:FlyoutItemPage Title="Mis puntos" IconSource="Puntos.png" TargetPage="{x:Type local:ConsultaPunt}"/>
+                    <local:FlyoutItemPage Title="My Info" IconSource="Cliente.png" TargetPage="{x:Type local:ClienteGestion}"/>
+                    <local:FlyoutItemPage Title="My Appointments" IconSource="Cita.png" TargetPage="{x:Type local:RegistroCitas}"/>
+                    <local:FlyoutItemPage Title="My Receipts" IconSource="Factura.png" TargetPage="{x:Type local:ConsultaFact}"/>
+                    <local:FlyoutItemPage Title="My Points" IconSource="Puntos.png" TargetPage="{x:Type local:ConsultaPunt}"/>
                     <local:FlyoutItemPage Title="Logout" IconSource="Logout.png" TargetPage="{x:Type local:LogOut}"/>
                 </x:Array>
             </ListView.ItemsSource>

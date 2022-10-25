@@ -12,7 +12,7 @@
             <Frame CornerRadius="10" BackgroundColor="#FFA534">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="logo_tec.png" WidthRequest="150" HeightRequest="90"></Image>
-                    <Label Font="32" Text="DetailTec" Margin="15" VerticalOptions="Center" TextColor="Black"></Label>
+                    <Label Font="28" Text="DetailTec" Margin="15" VerticalOptions="Center" TextColor="Black"></Label>
                 </StackLayout>
             </Frame>
 

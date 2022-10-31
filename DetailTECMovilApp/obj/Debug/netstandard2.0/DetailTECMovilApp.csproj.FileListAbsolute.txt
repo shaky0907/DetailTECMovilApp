@@ -22,3 +22,4 @@ C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECM
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\View\RegistroCitas.xaml.g.cs
 C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\View\CitaDetail.xaml.g.cs
+C:\Users\adela\Documents\DAVID\BASES\DetailTECmovil\DetailTECMovilApp\DetailTECMovilApp\obj\Debug\netstandard2.0\View\CitaInfo.xaml.g.cs

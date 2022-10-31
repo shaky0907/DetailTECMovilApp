@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DetailTECMovilApp.RegistroCitas"
-             Title="My Appointments"
+             Title="Mis Citas"
              BackgroundColor="White">
 
     <ContentPage.ToolbarItems>
@@ -18,7 +18,7 @@
                    TextChanged="SearchBar_TextChanged"/>
         <CollectionView x:Name="CitasView"
                         SelectionMode="Single"
-                        Margin="20,5,20,0">
+                        Margin="20,5,20,0" BackgroundColor="White">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     
@@ -39,9 +39,9 @@
                         </SwipeView.RightItems>
                         <SwipeView.LeftItems>
                             <SwipeItem Text="Info"
-                                        BackgroundColor="LightYellow"
+                                        BackgroundColor="Lightblue"
                                         CommandParameter="{Binding .}"
-                                        Invoked="SwipeItem_Invoked_1"/>
+                                        Invoked="SwipeItem_Invoked_2"/>
                         </SwipeView.LeftItems>
                         <Grid BackgroundColor="White">
                             <Grid.RowDefinitions>
@@ -59,8 +59,20 @@
                                    VerticalOptions="CenterAndExpand"
                                    FontSize="20"
                                    FontAttributes="Bold"/>
-                            <Label Text="{Binding ID_Sucursal}"
-                                   Grid.Row="1" Grid.Column="1"/>
+                            <Label Grid.Row="1" Grid.Column="1">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span Text="{Binding SucursalNombre}"/>
+                                            <Span Text=" "/>
+                                            <Span Text="{Binding Fecha.Date}"/>
+                                            <Span Text=" "/>
+                                            <Span Text="{Binding Hora}"/>
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            
                         </Grid>
                     </SwipeView>
                 </DataTemplate>

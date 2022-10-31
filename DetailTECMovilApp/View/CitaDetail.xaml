@@ -2,17 +2,48 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DetailTECMovilApp.View.CitaDetail"
-             Title="New Cita">
+             Title="Nueva Cita"
+             BackgroundColor="White">
     <ContentPage.Content>
-        <StackLayout Margin="20">
-            <Entry Placeholder="Sucursal"
-                   x:Name="sucursalEntry"
-                   TextTransform="Uppercase"/>
-            <Entry Placeholder="Tipo de lavado"
-                   x:Name="lavadoEntry"
-                   TextTransform="Uppercase"/>
-            <Button Text="Save"
-                    Clicked="Button_Save"/>
+        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+            <Label Text="Sucursal:" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <Picker Title="---Elija Sucursal---" TitleColor="Red"
+                    x:Name="SucursalPick"
+                    ItemDisplayBinding="{Binding Nombre}"
+                    >
+                
+                
+            </Picker>
+            
+            <Label x:Name="sucLabel" Text="Sucursal Selecionada" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <Label x:Name="sucursalEntry" FontSize="20" TextColor="Black"/>
+            
+            <Label Text="Tipo de Lavado:" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <Picker Title="---Elija Lavado---" TitleColor="Red"
+                    x:Name="TipoLavadoPick"
+                    ItemDisplayBinding="{Binding Nombre}">
+            </Picker>
+            <Label x:Name ="lavadolabel" Text="Tipo de Lavado Selecionado" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <Label x:Name="tipolavadoEntry" FontSize="20" TextColor="Black"/>
+
+            <Label Text="Fecha:" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <DatePicker x:Name="fechaEntry"/>
+            <Label Text="Hora:" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <TimePicker x:Name="tiempoEntry" Format="T"/>
+
+
+
+
+
+
+
+
+            <Button Text="Salvar"
+                    Clicked="Button_Save" BackgroundColor="#00BEE0"/>
+            
+            
+            
+            
 
         </StackLayout>
     </ContentPage.Content>

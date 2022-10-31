@@ -2,11 +2,13 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using System.IO;
+using DetailTECMovilApp.Models;
 
 namespace DetailTECMovilApp
 {
     public partial class App : Application
     {
+        public static Usuario mainuser;
 
         private static SQLiteHelper db;
         public static SQLiteHelper MyDataBase

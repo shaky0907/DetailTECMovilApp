@@ -3,6 +3,7 @@ using DetailTECMovilApp.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -59,6 +60,15 @@ namespace DetailTECMovilApp
         private async void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             CitasView.ItemsSource = await App.MyDataBase.SearchCita(e.NewTextValue);
+        }
+
+        private async void SwipeItem_Invoked_2(object sender, EventArgs e)
+        {
+            var item = sender as SwipeItem;
+            var cita = item.CommandParameter as Cita;
+            var citaInfoPage = new CitaInfo();
+            citaInfoPage.BindingContext = cita;
+            await Navigation.PushAsync(citaInfoPage);
         }
     }
 }

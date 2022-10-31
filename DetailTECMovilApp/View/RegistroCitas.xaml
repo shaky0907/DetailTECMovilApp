@@ -65,7 +65,7 @@
                                         <FormattedString.Spans>
                                             <Span Text="{Binding SucursalNombre}"/>
                                             <Span Text=" "/>
-                                            <Span Text="{Binding Fecha.Date}"/>
+                                            <Span Text="{Binding Fecha}"/>
                                             <Span Text=" "/>
                                             <Span Text="{Binding Hora}"/>
                                         </FormattedString.Spans>

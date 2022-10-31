@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DetailTECMovilApp.View.CitaInfo">
+             x:Class="DetailTECMovilApp.View.CitaInfo"
+             BackgroundColor="White"
+             Title="Informacion de cita">
     <ContentPage.Content>
         <StackLayout Margin="20">
             
@@ -9,8 +11,58 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <FormattedString.Spans>
-                            <Span Text="1) Nombre de Sucursal: "/>
-                            <Span x:Name="SucursalN" Text="{Binding ID_Sucursal}"/>
+                            <Span Text="1) N° Cita: "/>
+                            <Span x:Name="ID" Text="{Binding Num_cita}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="25" Padding="30,24,30,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="2) Nombre de Sucursal: "/>
+                            <Span x:Name="SucursalN" Text="{Binding SucursalNombre}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="25" Padding="30,24,30,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="3) Tipo de Lavado: "/>
+                            <Span x:Name="TipoLavado" Text="{Binding TipoLavado}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="25" Padding="30,24,30,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="4) Placa del Vehiculo: "/>
+                            <Span x:Name="Placa" Text="{Binding PlacaVehiculo}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="25" Padding="30,24,30,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="5) Fecha: "/>
+                            <Span x:Name="Fecha" Text="{Binding FechaM}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="25" Padding="30,24,30,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="6) Fecha: "/>
+                            <Span x:Name="Hora" Text="{Binding Hora}"/>
                         </FormattedString.Spans>
                     </FormattedString>
                 </Label.FormattedText>

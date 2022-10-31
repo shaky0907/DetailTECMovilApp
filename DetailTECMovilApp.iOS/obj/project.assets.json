@@ -1587,24 +1587,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adela\\.nuget\\packages\\": {},
+    "C:\\Users\\david\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adela\\Documents\\DAVID\\BASES\\DetailTECmovil\\DetailTECMovilApp\\DetailTECMovilApp.iOS\\DetailTECMovilApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Documents\\Proyecto1Bases\\DetailTECMovilApp\\DetailTECMovilApp.iOS\\DetailTECMovilApp.iOS.csproj",
       "projectName": "DetailTECMovilApp.iOS",
-      "projectPath": "C:\\Users\\adela\\Documents\\DAVID\\BASES\\DetailTECmovil\\DetailTECMovilApp\\DetailTECMovilApp.iOS\\DetailTECMovilApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\adela\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adela\\Documents\\DAVID\\BASES\\DetailTECmovil\\DetailTECMovilApp\\DetailTECMovilApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\david\\Documents\\Proyecto1Bases\\DetailTECMovilApp\\DetailTECMovilApp.iOS\\DetailTECMovilApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\david\\Documents\\Proyecto1Bases\\DetailTECMovilApp\\DetailTECMovilApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\adela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1618,8 +1618,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\adela\\Documents\\DAVID\\BASES\\DetailTECmovil\\DetailTECMovilApp\\DetailTECMovilApp\\DetailTECMovilApp.csproj": {
-              "projectPath": "C:\\Users\\adela\\Documents\\DAVID\\BASES\\DetailTECmovil\\DetailTECMovilApp\\DetailTECMovilApp\\DetailTECMovilApp.csproj"
+            "C:\\Users\\david\\Documents\\Proyecto1Bases\\DetailTECMovilApp\\DetailTECMovilApp\\DetailTECMovilApp.csproj": {
+              "projectPath": "C:\\Users\\david\\Documents\\Proyecto1Bases\\DetailTECMovilApp\\DetailTECMovilApp\\DetailTECMovilApp.csproj"
             }
           }
         }

@@ -6,7 +6,7 @@
              BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout Margin="20" VerticalOptions="StartAndExpand">
-            <Label Text="Sucursal:" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <Label Text="Sucursal:" FontSize="19" TextColor="LightSteelBlue" FontAttributes="Bold"/>
             <Picker Title="---Elija Sucursal---" TitleColor="Red"
                     x:Name="SucursalPick"
                     ItemDisplayBinding="{Binding Nombre}"
@@ -15,21 +15,28 @@
                 
             </Picker>
             
-            <Label x:Name="sucLabel" Text="Sucursal Selecionada" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
-            <Label x:Name="sucursalEntry" FontSize="20" TextColor="Black"/>
+            <Label x:Name="sucLabel" Text="Sucursal Selecionada" FontSize="19" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <Label x:Name="sucursalEntry" FontSize="15" TextColor="Black"/>
             
-            <Label Text="Tipo de Lavado:" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <Label Text="Tipo de Lavado:" FontSize="19" TextColor="LightSteelBlue" FontAttributes="Bold"/>
             <Picker Title="---Elija Lavado---" TitleColor="Red"
                     x:Name="TipoLavadoPick"
                     ItemDisplayBinding="{Binding Nombre}">
             </Picker>
-            <Label x:Name ="lavadolabel" Text="Tipo de Lavado Selecionado" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
-            <Label x:Name="tipolavadoEntry" FontSize="20" TextColor="Black"/>
+            <Label x:Name ="lavadolabel" Text="Tipo de Lavado Selecionado" FontSize="19" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <Label x:Name="tipolavadoEntry" FontSize="15" TextColor="Black"/>
 
-            <Label Text="Fecha:" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
-            <DatePicker x:Name="fechaEntry"/>
-            <Label Text="Hora:" FontSize="23" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <Label Text="Fecha:" FontSize="19" TextColor="LightSteelBlue" FontAttributes="Bold" />
+            <DatePicker x:Name="fechaEntry" MinimumDate="10/31/2022"/>
+            <Label Text="Hora:" FontSize="19" TextColor="LightSteelBlue" FontAttributes="Bold"/>
             <TimePicker x:Name="tiempoEntry" Format="T"/>
+
+            <Label Text="Placa del vehiculo:" FontSize="19" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <Entry x:Name="placaEntry" Placeholder="Placa del Vehiculo" PlaceholderColor="LightGray" TextColor="Black" BackgroundColor="White"/>
+            
+            <Label Text="Pago con Puntos:" FontSize="19" TextColor="LightSteelBlue" FontAttributes="Bold"/>
+            <CheckBox x:Name="pagoEntry"/>
+
 
 
 

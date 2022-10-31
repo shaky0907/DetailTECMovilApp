@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DetailTECMovilApp.Models;
+using DetailTECMovilApp.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,12 +17,7 @@ namespace DetailTECMovilApp
         public ConsultaFact()
         {
             InitializeComponent();
-            App.MyDataBase.CreateFactura(new Models.Factura()
-            {
-                Cita_Facturada=1,
-                monto="$200",
-                tipo_de_pago= "Efectivo"
-            });
+            
         }
 
         protected override async void OnAppearing()
@@ -28,7 +25,31 @@ namespace DetailTECMovilApp
             try
             {
                 base.OnAppearing();
-                FacturaView.ItemsSource = await App.MyDataBase.ReadFacturas();
+
+                List<Cita> citas = await App.MyDataBase.getClientCitas(App.mainuser.ID_dueno);
+
+                await App.MyDataBase.deleteFacturas();
+
+                foreach(Cita cita in citas)
+                {
+                    string var;
+                    if (cita.tipoPago)
+                    {
+                        var = "Puntos";
+                    }
+                    else
+                    {
+                        var = "Tarejeta/Efecivo";
+                    }
+                    await App.MyDataBase.CreateFactura(new Factura()
+                    {
+                        Cita_Facturada = cita.Num_cita,
+                        tipo_de_pago = var,
+                        monto = 15000,
+                        client_id = App.mainuser.ID_dueno
+                    });
+                }
+                FacturaView.ItemsSource = await App.MyDataBase.getClientFacturas(App.mainuser.ID_dueno);
             }
             catch
             {
@@ -36,9 +57,13 @@ namespace DetailTECMovilApp
             }
         }
 
-        private void SwipeItem_Invoked(object sender, EventArgs e)
+        private async void SwipeItem_Invoked(object sender, EventArgs e)
         {
-
+            var item = sender as SwipeItem;
+            var cita = item.CommandParameter as Factura;
+            var citaInfoPage = new FacturaInfo();
+            citaInfoPage.BindingContext = cita;
+            await Navigation.PushAsync(citaInfoPage);
         }
     }
 }

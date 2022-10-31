@@ -42,11 +42,14 @@ namespace DetailTECMovilApp.View
             tipolavadoEntry.Text = cita.TipoLavado;
             sucLabel.IsVisible = true;
             lavadolabel.IsVisible = true;
-
+            
             fechaEntry.Date = cita.Fecha;
 
-            tiempoEntry.Time = cita.Fecha.TimeOfDay;
+            tiempoEntry.Time = cita.Hora;
 
+            placaEntry.Text = cita.PlacaVehiculo;
+
+            pagoEntry.IsChecked = cita.tipoPago;
             sucursalEntry.Focus();
             
            
@@ -90,14 +93,22 @@ namespace DetailTECMovilApp.View
 
         async void UpdateCita()
         {
+           
+            Factura fac = await App.MyDataBase.searchFactura(_cita.Num_cita);
+            
             _cita.ID_Sucursal = SucursalPick.SelectedIndex;
             _cita.SucursalNombre = sucursales[SucursalPick.SelectedIndex].Nombre.ToString();
             _cita.TipoLavado = lavados[TipoLavadoPick.SelectedIndex].Nombre.ToString();
       
+            _cita.FechaM = fechaEntry.Date.ToString("dd/MM/yyyy");
             _cita.Fecha = fechaEntry.Date;
             _cita.Hora = tiempoEntry.Time;
+            _cita.PlacaVehiculo = placaEntry.Text;
+            _cita.CedCliente = App.mainuser.ID_dueno;
+            _cita.tipoPago = pagoEntry.IsChecked;
 
-    
+            
+
             await App.MyDataBase.UpdateCita(_cita);
             await Navigation.PopAsync();
         }
@@ -108,13 +119,27 @@ namespace DetailTECMovilApp.View
             fechhora.AddHours(tiempoEntry.Time.Hours).AddMinutes(tiempoEntry.Time.Minutes);
             await App.MyDataBase.CreateCita(new Models.Cita
             {
+                
                 ID_Sucursal = SucursalPick.SelectedIndex,
                 SucursalNombre = sucursales[SucursalPick.SelectedIndex].Nombre.ToString(),
                 TipoLavado = lavados[TipoLavadoPick.SelectedIndex].Nombre.ToString(),
-
                 Fecha = fechaEntry.Date,
-                Hora = tiempoEntry.Time
-        });
+                FechaM = fechaEntry.Date.ToString("dd/MM/yyyy"),
+                Hora = tiempoEntry.Time,
+                PlacaVehiculo = placaEntry.Text,
+                CedCliente = App.mainuser.ID_dueno,
+                tipoPago = pagoEntry.IsChecked
+
+            });
+
+            Cliente cliente = await App.MyDataBase.SearchCliente(App.mainuser.ID_dueno);
+            
+          
+            cliente.puntos += lavados[TipoLavadoPick.SelectedIndex].Puntacion;
+            Console.WriteLine(cliente.puntos);
+            await App.MyDataBase.UpdateCliente(cliente);
+
+
             await Navigation.PopAsync();
         }
     }

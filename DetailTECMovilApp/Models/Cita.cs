@@ -17,7 +17,9 @@ namespace DetailTECMovilApp.Models
         public string TipoLavado { get; set; }
         public string PlacaVehiculo { get; set; }
         public TimeSpan Hora { get; set; }
+        public string FechaM { get; set; }
         public DateTime Fecha { get; set; }
+        public bool tipoPago { get; set; }
         
     }
 }

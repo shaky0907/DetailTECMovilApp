@@ -13,6 +13,7 @@ namespace DetailTECMovilApp.Models
         public string Apellido2 { get; set; }
         public string Correo { get; set; }
         public string Password { get; set; }
+        public int puntos { get; set; }
 
     }
 }

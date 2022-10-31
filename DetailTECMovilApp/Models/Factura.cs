@@ -11,7 +11,8 @@ namespace DetailTECMovilApp.Models
         public int Numero_factura { get; set; }
         public int Cita_Facturada { get; set; }
         public string tipo_de_pago { get; set; }
-        public string monto { get; set; }
+        public int monto { get; set; }
+        public string client_id { get; set; }
 
     }
 }

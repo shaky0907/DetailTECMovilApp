@@ -25,7 +25,7 @@ namespace DetailTECMovilApp
             try
             {
                 base.OnAppearing();
-                CitasView.ItemsSource = await App.MyDataBase.ReadCitas();
+                CitasView.ItemsSource = await App.MyDataBase.getClientCitas(App.mainuser.ID_dueno);
             }
             catch
             {

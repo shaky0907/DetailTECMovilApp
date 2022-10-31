@@ -2,13 +2,50 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DetailTECMovilApp.ConsultaPunt"
-             Title="My Points"
+             Title="Mis Puntos"
              BackgroundColor="White">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Mis puntos"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="20">
+
+            <Label Text="Puntos Totales:" HorizontalOptions="StartAndExpand" Padding="30,20,0,0" FontSize="30" TextColor="Black"/>
+            <Label x:Name="Totales" FontSize="20" Padding="30,0,0,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="{Binding Nombre}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label Text="Puntos Redimidos:" HorizontalOptions="StartAndExpand" Padding="30,20,0,0" FontSize="30" TextColor="Black"/>
+            <Label x:Name="Redimidos" FontSize="20" Padding="30,0,0,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="{Binding Cedula}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label Text="Puntos Disponibles:" HorizontalOptions="StartAndExpand" Padding="30,20,0,0" FontSize="30" TextColor="Black"/>
+            <Label x:Name="Disponibles" FontSize="20" Padding="30,0,0,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="{Binding Apellido1}"/>
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            
+            
+            
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

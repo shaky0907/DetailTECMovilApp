@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DetailTECMovilApp.View.FacturaInfo"
+             BackgroundColor="White"
+             Title="Informacion de Factura">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+
+            <Label FontSize="25" Padding="30,24,30,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="1) N° Factura: "/>
+                            <Span x:Name="ID" Text="{Binding Numero_factura}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="25" Padding="30,24,30,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="2) N° Cita: "/>
+                            <Span x:Name="SucursalN" Text="{Binding Cita_Facturada}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="25" Padding="30,24,30,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="3) Tipo de Pago: "/>
+                            <Span x:Name="TipoLavado" Text="{Binding tipo_de_pago}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label FontSize="25" Padding="30,24,30,0" HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="4) Monto: "/>
+                            <Span x:Name="Placa" Text="{Binding monto}"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -863,23 +863,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adela\\.nuget\\packages\\": {},
+    "C:\\Users\\david\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adela\\Documents\\DAVID\\BASES\\DetailTECmovil\\DetailTECMovilApp\\DetailTECMovilApp\\DetailTECMovilApp.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Documents\\Proyecto1Bases\\DetailTECMovilApp\\DetailTECMovilApp\\DetailTECMovilApp.csproj",
       "projectName": "DetailTECMovilApp",
-      "projectPath": "C:\\Users\\adela\\Documents\\DAVID\\BASES\\DetailTECmovil\\DetailTECMovilApp\\DetailTECMovilApp\\DetailTECMovilApp.csproj",
-      "packagesPath": "C:\\Users\\adela\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adela\\Documents\\DAVID\\BASES\\DetailTECmovil\\DetailTECMovilApp\\DetailTECMovilApp\\obj\\",
+      "projectPath": "C:\\Users\\david\\Documents\\Proyecto1Bases\\DetailTECMovilApp\\DetailTECMovilApp\\DetailTECMovilApp.csproj",
+      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\david\\Documents\\Proyecto1Bases\\DetailTECMovilApp\\DetailTECMovilApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\adela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -32,13 +32,35 @@
                                    Grid.Row="0" Grid.RowSpan="2"
                                    HorizontalOptions="CenterAndExpand"
                                    VerticalOptions="CenterAndExpand"/>
-                            <Label Text="{Binding monto}"
-                                   Grid.Row="0" Grid.Column="1"
-                                   VerticalOptions="CenterAndExpand"
-                                   FontSize="20"
-                                   FontAttributes="Bold"/>
-                                <Label Text="{Binding tipo_de_pago}"
-                                   Grid.Row="1" Grid.Column="1"/>
+                            
+                            
+                            <Label Grid.Row="0" Grid.Column="1">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span Text="Monto: ₡ "/>
+                                            <Span Text="{Binding monto}"/>
+                                            <Span Text=" "/>
+
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            
+
+
+                            <Label Grid.Row="1" Grid.Column="1">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <FormattedString.Spans>
+                                            <Span Text="Tipo de pago: "/>
+                                            <Span Text="{Binding tipo_de_pago}"/>
+                                            <Span Text=" "/>
+                                            
+                                        </FormattedString.Spans>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
                             </Grid>
                         </SwipeView>
                     </DataTemplate>

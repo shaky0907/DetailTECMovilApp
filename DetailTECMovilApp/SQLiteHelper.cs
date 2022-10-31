@@ -50,14 +50,7 @@ namespace DetailTECMovilApp
                 Distrito = "Pozos"
             });
 
-            db.InsertAsync(new Sucursal()
-            {
-                Nombre = "Cartago",
-                Provincia = "Cartago",
-                Canton = "tres rios",
-                Distrito = "Distrito"
-            });
-
+           
             db.InsertAsync(new Sucursal()
             {
                 Nombre = "Alajuela",
@@ -139,6 +132,10 @@ namespace DetailTECMovilApp
 
             });
 
+           
+
+            
+
 
 
         }
@@ -170,7 +167,23 @@ namespace DetailTECMovilApp
         {
             return db.Table<Cita>().Where(p => p.TipoLavado.StartsWith(search)).ToListAsync();
         }
+        public Task<List<Cita>> getClientCitas(string id)
+        {
+            return db.Table<Cita>().Where(p => p.CedCliente == id).ToListAsync();
+        }
 
+        public Task<Cita> getCita(int id)
+        {
+            return db.Table<Cita>().Where(p => p.Num_cita == id).FirstOrDefaultAsync();
+        }
+
+
+       
+
+        public Task<int> deleteFacturas()
+        {
+            return db.DeleteAllAsync<Factura>();
+        }
         //FACTURA===========================================================================
         public Task<int> CreateFactura(Factura factura)
         {
@@ -194,7 +207,18 @@ namespace DetailTECMovilApp
             return db.DeleteAsync(factura);
         }
 
+        public Task<List<Factura>> getClientFacturas(string id)
+        {
 
+            return db.Table<Factura>().Where(p => p.client_id == id).ToListAsync();
+        }
+        public Task<Factura> searchFactura(int id)
+        {
+
+            return db.Table<Factura>().Where(p => p.Cita_Facturada == id).FirstOrDefaultAsync();
+        }
+
+        
 
         //USUARIO==========================================================================
 
@@ -239,6 +263,24 @@ namespace DetailTECMovilApp
             return db.Table<TipoLavado>().ToListAsync();
         }
 
+        public Task<TipoLavado> SearchLavado(int  id)
+        {
+
+            var user = db.Table<TipoLavado>().Where(p => p.Id == id).FirstOrDefaultAsync();
+
+            return user;
+
+        }
+
+        public Task<TipoLavado> SearchLavadoPorN(string id)
+        {
+
+            var user = db.Table<TipoLavado>().Where(p => p.Nombre == id).FirstOrDefaultAsync();
+
+            return user;
+
+        }
+
         //Cliente=========================================================0
 
         public Task<List<Cliente>> ReadCliente()
@@ -258,6 +300,11 @@ namespace DetailTECMovilApp
         public Task<int> UpdateClienteUser(Usuario user)
         {
             return db.UpdateAsync(user);
+        }
+
+        public Task<int> UpdateCliente(Cliente cliente)
+        {
+            return db.UpdateAsync(cliente);
         }
 
 
